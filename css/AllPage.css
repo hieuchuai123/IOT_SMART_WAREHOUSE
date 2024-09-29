@@ -1,0 +1,276 @@
+.content-wrapper {
+    background-color: #2a2727;
+    background-image: url(/img/warehouse.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: animateBackground 10s infinite alternate;
+    overflow-y: hidden;
+}
+
+body {
+    font-family: "Oswald", sans-serif;
+    background-color: #333333;
+}
+
+.td {
+    color: #333333;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    min-width: 100px;
+}
+
+
+/* điều chỉnh độ rộng của cột hình ảnh sản phẩm */
+#country-table .product_img {
+    width: 10%;
+}
+
+#country-table .action {
+    width: 20%;
+}
+
+#country-table .name {
+    min-width: 130px;
+}
+
+.action-info {
+    /* display: none; */
+}
+
+td {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    word-wrap: break-word;
+}
+
+tr {
+    background-color: #e6a900;
+}
+
+tr:hover {
+    /* background-color: #333333; */
+}
+
+tr:hover td {
+    transition: ease-out 0.2s;
+    color: white;
+}
+
+tr:hover button {
+    /* background-color: rgb(213, 213, 213); */
+}
+
+tbody tr {
+    background-color: transparent;
+}
+
+tbody td {
+    border: none;
+}
+
+div.dataTables_wrapper div.dataTables_info {
+    /* background-color: #e6a900;
+    padding-left: 20px;
+    padding-bottom: 20px; */
+    color: #e6a900;
+}
+
+.page-link {
+    border: none;
+    color: #e6a900;
+    background-color: transparent;
+}
+
+.page-item.disabled .page-link {
+    background-color: #4d4b4b;
+    color: #e6a900;
+}
+
+.page-item.active .page-link {
+    background-color: #e6a900;
+    color: #333333;
+}
+
+div.dataTables_wrapper div.dataTables_filter label {
+    color: #e6a900;
+}
+
+
+div.dataTables_wrapper div.dataTables_paginate {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.title {
+    color: #e6a900;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+
+.list-title {
+    color: #e6a900;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+
+.main-footer {
+    background-color: #e6a900;
+    color: #333333;
+    border: none;
+}
+
+.form-control-sidebar {
+    color: #e6a900;
+    background-color: #333333;
+}
+
+.link-table {
+    color: white;
+    margin-left: 10px;
+    transition: ease-out 0.2s;
+}
+
+#user-name-login {
+    color: #e6a900;
+}
+
+.nav-sidebar .nav-link p {
+    margin: 10px;
+}
+
+table {
+    border: none;
+    border-radius: none;
+}
+
+
+.table td {
+    border-top: 0.5px solid #9e7400;
+}
+
+table.dataTable {
+    overflow: hidden;
+    border: 1px solid rgb(179, 147, 89);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+.table-list {
+    color: #333333;
+
+}
+
+.sidebar-dark-primary .nav-sidebar>.nav-item>.nav-link.active,
+.sidebar-light-primary .nav-sidebar>.nav-item>.nav-link.active {
+    background-color: #e6a900;
+}
+
+
+.table-list-icon {
+    color: #333333;
+}
+
+.item-icon {
+    color: white;
+}
+
+.footer-btn {
+    background-color: transparent;
+    color: #333333;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+}
+
+.footer-btn:hover {
+    transition: ease-out 0.2s;
+    color: white;
+}
+
+.btn {
+    background-color: #e6a900;
+    color: #333333;
+    font-family: 'Oswald', sans-serif;
+    transition: ease-out 0.2s;
+}
+
+.btn:hover {
+    color: white;
+}
+
+.btn:hover i {
+    color: white;
+}
+
+button>i {
+    color: #333333;
+}
+
+/* #list-add-btn {
+    background-color: rgb(11, 44, 61);
+    color: rgb(179, 147, 89);
+    font-family: 'Lora', sans-serif;
+} */
+.delete-btn {
+    background-color: rgb(174, 45, 45);
+}
+
+.edit-btn {
+    background-color: rgb(3, 178, 3);
+}
+
+.header-container {
+    display: flex;
+}
+
+.active {
+    background-color: #e6a900;
+}
+
+.active>a>i {
+    color: #333333;
+}
+
+.active>a>p {
+    color: #333333;
+}
+
+
+/* template header */
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    border: none;
+}
+
+@keyframes dropdowmenu {
+    from {
+        opacity: 0;
+        bottom: -140px;
+    }
+
+    to {
+        opacity: 1;
+        bottom: -130px;
+    }
+}
+
+/*TOARST MESSAGE*/
+.toast-top-position {
+    position: absolute;
+    top: 70px;
+    right: 0px;
+    animation: moveIn2 ease-out 0.3s;
+}
+
+/* ANIMATION */
+@keyframes animateBackground {
+    0% {
+        background-position: 0 0;
+    }
+
+    100% {
+        background-position: 100% 100%;
+    }
+}
