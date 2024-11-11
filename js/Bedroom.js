@@ -390,6 +390,7 @@ function fireBaseConfig() {
 
 // CHART RENDER
 function fireBaseChartRender(db) {
+    // truy xuất vào biểu đồ  
     const temp = document.getElementById('temp-chart').getContext('2d');
     const humid = document.getElementById('humid-chart').getContext('2d');
     const light = document.getElementById('light-chart').getContext('2d');
